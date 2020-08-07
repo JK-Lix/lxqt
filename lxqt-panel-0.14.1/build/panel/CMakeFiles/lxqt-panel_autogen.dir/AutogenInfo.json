@@ -1,0 +1,272 @@
+{
+	"BUILD_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/lxqt-panel_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1",
+	"HEADERS" : 
+	[
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/addplugindialog.h",
+			"MU",
+			"IJHAR2IVER/moc_addplugindialog.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpaneldialog.h",
+			"MU",
+			"IJHAR2IVER/moc_configpaneldialog.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpanelwidget.h",
+			"MU",
+			"IJHAR2IVER/moc_configpanelwidget.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpluginswidget.h",
+			"MU",
+			"IJHAR2IVER/moc_configpluginswidget.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/ilxqtpanel.h",
+			"MU",
+			"EWIEGA46WW/moc_ilxqtpanel.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/ilxqtpanelplugin.h",
+			"MU",
+			"EWIEGA46WW/moc_ilxqtpanelplugin.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanel.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanel.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelapplication.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanelapplication.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelapplication_p.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanelapplication_p.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelglobals.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanelglobals.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanellayout.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanellayout.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanellimits.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanellimits.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelpluginconfigdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtpanelpluginconfigdialog.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/panelpluginsmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_panelpluginsmodel.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_plugin.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/pluginmoveprocessor.h",
+			"MU",
+			"EWIEGA46WW/moc_pluginmoveprocessor.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/pluginsettings.h",
+			"MU",
+			"EWIEGA46WW/moc_pluginsettings.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/pluginsettings_p.h",
+			"MU",
+			"EWIEGA46WW/moc_pluginsettings_p.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/popupmenu.h",
+			"MU",
+			"EWIEGA46WW/moc_popupmenu.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/windownotifier.h",
+			"MU",
+			"EWIEGA46WW/moc_windownotifier.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/lxqt-panel_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/lxqt-panel_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"COMPILE_LXQT_PANEL",
+		"LXQT_DATA_DIR=\"/usr/share\"",
+		"LXQT_ETC_XDG_DIR=\"/etc/xdg\"",
+		"LXQT_GRAPHICS_DIR=\"/usr/share/lxqt/graphics\"",
+		"LXQT_LOCK_DESKTOP=\"/usr/local/share/applications/lxqt-lockscreen.desktop\"",
+		"LXQT_MAJOR_VERSION=\"0\"",
+		"LXQT_MINOR_VERSION=\"14\"",
+		"LXQT_PANEL_VERSION=\"0.14.1\"",
+		"LXQT_PATCH_VERSION=\"1\"",
+		"LXQT_RELATIVE_SHARE_DIR=\"lxqt\"",
+		"LXQT_RELATIVE_SHARE_TRANSLATIONS_DIR=\"lxqt/translations\"",
+		"LXQT_SHARE_DIR=\"/usr/share/lxqt\"",
+		"LXQT_SHARE_TRANSLATIONS_DIR=\"/usr/share/lxqt/translations\"",
+		"LXQT_VERSION=\"0.14.1\"",
+		"PLUGIN_DESKTOPS_DIR=\"/usr/local/share/lxqt/lxqt-panel\"",
+		"PLUGIN_DIR=\"/usr/local/lib/lxqt-panel\"",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_SVG_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB",
+		"WITH_DESKTOPSWITCH_PLUGIN",
+		"WITH_MAINMENU_PLUGIN",
+		"WITH_QUICKLAUNCH_PLUGIN",
+		"WITH_SCREENSAVER_FALLBACK",
+		"WITH_SHOWDESKTOP_PLUGIN",
+		"WITH_SPACER_PLUGIN",
+		"WITH_STATUSNOTIFIER_PLUGIN",
+		"WITH_TASKBAR_PLUGIN",
+		"WITH_TRAY_PLUGIN",
+		"WITH_WORLDCLOCK_PLUGIN"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel",
+		"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel",
+		"/usr/include/lxqt",
+		"/usr/include/lxqt/LXQt",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include/qt5xdg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/qt5xdgiconloader",
+		"/usr/include/qt5xdgiconloader/3.4.0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/lxqt-globalkeys",
+		"/usr/include/lxqt-globalkeys-ui",
+		"/usr/include/dbusmenu-qt5",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/lxqt-panel_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/CMakeFiles/lxqt-panel_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/CMakeFiles/lxqt-panel_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/panel/LXQtAppTranslationLoader.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/addplugindialog.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpaneldialog.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpanelwidget.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/config/configpluginswidget.cpp",
+			"MU"
+		],
+		[ "/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanel.cpp", "MU" ],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelapplication.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanellayout.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/lxqtpanelpluginconfigdialog.cpp",
+			"MU"
+		],
+		[ "/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/main.cpp", "MU" ],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/panelpluginsmodel.cpp",
+			"MU"
+		],
+		[ "/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/plugin.cpp", "MU" ],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/pluginmoveprocessor.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/pluginsettings.cpp",
+			"MU"
+		],
+		[ "/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/popupmenu.cpp", "MU" ],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/panel/windownotifier.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/worldclock_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/worldclock_autogen.dir/ParseCache.txt"
+  "worldclock_autogen"
+  "CMakeFiles/worldclock.dir/LXQtPluginTranslationLoader.cpp.o"
+  "CMakeFiles/worldclock.dir/lxqtworldclock.cpp.o"
+  "CMakeFiles/worldclock.dir/lxqtworldclockconfiguration.cpp.o"
+  "CMakeFiles/worldclock.dir/lxqtworldclockconfigurationmanualformat.cpp.o"
+  "CMakeFiles/worldclock.dir/lxqtworldclockconfigurationtimezones.cpp.o"
+  "CMakeFiles/worldclock.dir/worldclock_autogen/mocs_compilation.cpp.o"
+  "libworldclock.a"
+  "libworldclock.pdb"
+  "worldclock.desktop"
+  "worldclock_ar.qm"
+  "worldclock_ca.qm"
+  "worldclock_cs.qm"
+  "worldclock_cy.qm"
+  "worldclock_da.qm"
+  "worldclock_de.qm"
+  "worldclock_el.qm"
+  "worldclock_es.qm"
+  "worldclock_fr.qm"
+  "worldclock_gl.qm"
+  "worldclock_he.qm"
+  "worldclock_hu.qm"
+  "worldclock_id.qm"
+  "worldclock_it.qm"
+  "worldclock_ja.qm"
+  "worldclock_lt.qm"
+  "worldclock_nb_NO.qm"
+  "worldclock_nl.qm"
+  "worldclock_pl.qm"
+  "worldclock_pt.qm"
+  "worldclock_ru.qm"
+  "worldclock_tr.qm"
+  "worldclock_uk.qm"
+  "worldclock_zh_CN.qm"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/worldclock.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

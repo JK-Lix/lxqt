@@ -1,0 +1,1485 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: 源码包 lxqt-panel
+dpkg-buildpackage: info: 源码版本 0.14.1-1ubuntu3
+dpkg-buildpackage: info: source distribution focal
+dpkg-buildpackage: info: 源码修改者 Raman Sarda <theloudspeaker@lubuntu.me>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: 主机架构 amd64
+dpkg-source: info: using options from lxqt-panel-0.14.1/debian/source/options: --tar-ignore=.gitignore
+ fakeroot debian/rules clean
+dh clean --buildsystem cmake
+   dh_auto_clean -O--buildsystem=cmake
+   dh_autoreconf_clean -O--buildsystem=cmake
+   dh_clean -O--buildsystem=cmake
+ dpkg-source -b .
+dpkg-source: info: using options from lxqt-panel-0.14.1/debian/source/options: --tar-ignore=.gitignore
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building lxqt-panel using existing ./lxqt-panel_0.14.1.orig.tar.xz
+dpkg-source: info: building lxqt-panel using existing ./lxqt-panel_0.14.1.orig.tar.xz.asc
+dpkg-source: 错误: cannot represent change to build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin: 二进制文件内容已改变
+dpkg-source: 错误: add build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin: 二进制文件内容已改变
+dpkg-source: 错误: add build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/CMakeFiles/3.16.3/CompilerIdC/a.out: 二进制文件内容已改变
+dpkg-source: 错误: add build/CMakeFiles/3.16.3/CompilerIdC/a.out in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/CMakeFiles/3.16.3/CompilerIdC/a.out' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/CMakeFiles/3.16.3/CompilerIdCXX/a.out: 二进制文件内容已改变
+dpkg-source: 错误: add build/CMakeFiles/3.16.3/CompilerIdCXX/a.out in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/CMakeFiles/3.16.3/CompilerIdCXX/a.out' 不会被显示在差别文件中。
+dpkg-source: 警告: 文件 lxqt-panel-0.14.1/build/install_manifest.txt 没有结尾行(可能是原始版本或修订版本)
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/LXQtAppTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/LXQtAppTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/config/addplugindialog.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/config/addplugindialog.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/config/configpaneldialog.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/config/configpaneldialog.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/config/configpanelwidget.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/config/configpanelwidget.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/config/configpluginswidget.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/config/configpluginswidget.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/lxqt-panel_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/lxqt-panel_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanel.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanel.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanelapplication.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanelapplication.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanellayout.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanellayout.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanelpluginconfigdialog.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/lxqtpanelpluginconfigdialog.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/main.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/main.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/panelpluginsmodel.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/panelpluginsmodel.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/plugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/plugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/pluginmoveprocessor.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/pluginmoveprocessor.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/pluginsettings.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/pluginsettings.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/popupmenu.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/popupmenu.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/CMakeFiles/lxqt-panel.dir/windownotifier.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/CMakeFiles/lxqt-panel.dir/windownotifier.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/panel/lxqt-panel' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 新建的空文档 'build/panel/lxqt-panel_autogen/EWIEGA46WW/moc_ilxqtpanelplugin.cpp' 不会被显示在差别文件中.
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_es_UY.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_es_UY.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_fa.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_fa.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/panel/lxqt-panel_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/panel/lxqt-panel_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/CMakeFiles/colorpicker.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/CMakeFiles/colorpicker.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/CMakeFiles/colorpicker.dir/colorpicker.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/CMakeFiles/colorpicker.dir/colorpicker.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/CMakeFiles/colorpicker.dir/colorpicker_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/CMakeFiles/colorpicker.dir/colorpicker_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/colorpicker_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/colorpicker_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 文件 lxqt-panel-0.14.1/build/plugin-colorpicker/colorpicker_tr.qm 没有结尾行(可能是原始版本或修订版本)
+dpkg-source: 错误: cannot represent change to build/plugin-colorpicker/libcolorpicker.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-colorpicker/libcolorpicker.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-colorpicker/libcolorpicker.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/CMakeFiles/cpuload.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/CMakeFiles/cpuload.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/CMakeFiles/cpuload.dir/cpuload_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/CMakeFiles/cpuload.dir/cpuload_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuload.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuload.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuloadconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuloadconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuloadplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/CMakeFiles/cpuload.dir/lxqtcpuloadplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/cpuload_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/cpuload_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-cpuload/libcpuload.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-cpuload/libcpuload.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-cpuload/libcpuload.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitch.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitch.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitch_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitch_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitchbutton.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitchbutton.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitchconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/CMakeFiles/desktopswitch.dir/desktopswitchconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_es_UY.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_es_UY.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/desktopswitch_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/desktopswitch_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-desktopswitch/libdesktopswitch.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-desktopswitch/libdesktopswitch.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/CMakeFiles/directorymenu.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/CMakeFiles/directorymenu.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenu.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenu.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenu_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenu_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenuconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/CMakeFiles/directorymenu.dir/directorymenuconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/directorymenu_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/directorymenu_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-directorymenu/libdirectorymenu.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-directorymenu/libdirectorymenu.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-directorymenu/libdirectorymenu.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/kbindicator-plugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/kbindicator-plugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/kbindicator_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/kbindicator_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/content.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/content.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdkeeper.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdkeeper.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdstate.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdstate.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdstateconfig.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdstateconfig.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdwatcher.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/kbdwatcher.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/settings.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/settings.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/x11/kbdlayout.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/CMakeFiles/kbindicator.dir/src/x11/kbdlayout.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/kbindicator_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/kbindicator_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-kbindicator/libkbindicator.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-kbindicator/libkbindicator.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-kbindicator/libkbindicator.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/actionview.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/actionview.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/lxqtmainmenu.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/lxqtmainmenu.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/lxqtmainmenuconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/lxqtmainmenuconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/mainmenu_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/mainmenu_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/CMakeFiles/mainmenu.dir/menustyle.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/CMakeFiles/mainmenu.dir/menustyle.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/libmainmenu.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/libmainmenu.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_es_UY.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_es_UY.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mainmenu/mainmenu_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mainmenu/mainmenu_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_info.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_info.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_menu.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_menu.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_nothing.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/actions/deviceaction_nothing.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/button.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/button.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/configuration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/configuration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/lxqtmountplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/lxqtmountplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/menudiskitem.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/menudiskitem.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/mount_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/mount_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/CMakeFiles/mount.dir/popup.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/CMakeFiles/mount.dir/popup.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/libmount.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/libmount.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-mount/libmount.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_es_UY.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_es_UY.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-mount/mount_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-mount/mount_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitor.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitor.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitorconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitorconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitorplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/lxqtnetworkmonitorplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/networkmonitor_autogen/EWIEGA46WW/qrc_resources.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/networkmonitor_autogen/EWIEGA46WW/qrc_resources.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/networkmonitor_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/CMakeFiles/networkmonitor.dir/networkmonitor_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 新建的空文档 'build/plugin-networkmonitor/CMakeFiles/networkmonitor_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock' 不会被显示在差别文件中.
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/libnetworkmonitor.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/libnetworkmonitor.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-networkmonitor/libnetworkmonitor.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-networkmonitor/networkmonitor_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-networkmonitor/networkmonitor_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/lxqtquicklaunch.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/lxqtquicklaunch.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/lxqtquicklaunchplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/lxqtquicklaunchplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunch_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunch_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunchaction.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunchaction.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunchbutton.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/CMakeFiles/quicklaunch.dir/quicklaunchbutton.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/libquicklaunch.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/libquicklaunch.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-quicklaunch/quicklaunch_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-quicklaunch/quicklaunch_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/chip.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/chip.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/feature.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/feature.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensors.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensors.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensorsconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensorsconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensorsplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/lxqtsensorsplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/sensors.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/sensors.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/CMakeFiles/sensors.dir/sensors_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/CMakeFiles/sensors.dir/sensors_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/libsensors.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/libsensors.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-sensors/libsensors.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sensors/sensors_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sensors/sensors_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/CMakeFiles/showdesktop.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/CMakeFiles/showdesktop.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/CMakeFiles/showdesktop.dir/showdesktop.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/CMakeFiles/showdesktop.dir/showdesktop.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/CMakeFiles/showdesktop.dir/showdesktop_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/CMakeFiles/showdesktop.dir/showdesktop_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/libshowdesktop.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/libshowdesktop.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-showdesktop/showdesktop_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-showdesktop/showdesktop_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/CMakeFiles/spacer.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/CMakeFiles/spacer.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/CMakeFiles/spacer.dir/spacer.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/CMakeFiles/spacer.dir/spacer.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/CMakeFiles/spacer.dir/spacer_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/CMakeFiles/spacer.dir/spacer_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/CMakeFiles/spacer.dir/spacerconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/CMakeFiles/spacer.dir/spacerconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/libspacer.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/libspacer.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_sk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_sk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-spacer/spacer_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-spacer/spacer_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/dbustypes.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/dbustypes.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/sniasync.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/sniasync.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifier.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifier.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifier_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifier_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierbutton.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierbutton.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifieritemadaptor.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifieritemadaptor.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifieriteminterface.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifieriteminterface.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierwatcher.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierwatcher.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierwidget.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/CMakeFiles/statusnotifier.dir/statusnotifierwidget.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/libstatusnotifier.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/libstatusnotifier.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-statusnotifier/statusnotifier_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-statusnotifier/statusnotifier_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 文件 lxqt-panel-0.14.1/build/plugin-statusnotifier/statusnotifier_tr.qm 没有结尾行(可能是原始版本或修订版本)
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstat.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstat.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatcolours.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatcolours.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatutils.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/lxqtsysstatutils.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/CMakeFiles/sysstat.dir/sysstat_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/CMakeFiles/sysstat.dir/sysstat_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/libsysstat.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/libsysstat.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-sysstat/libsysstat.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-sysstat/sysstat_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-sysstat/sysstat_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqtgrouppopup.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqtgrouppopup.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbar.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbar.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbarconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbarconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbarplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbarplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbutton.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskbutton.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskgroup.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/lxqttaskgroup.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/CMakeFiles/taskbar.dir/taskbar_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/CMakeFiles/taskbar.dir/taskbar_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/libtaskbar.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/libtaskbar.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_hr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_hr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ia.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ia.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ko.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ko.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_sk_SK.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_sk_SK.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_sr@latin.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_sr@latin.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_sr_BA.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_sr_BA.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_sr_RS.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_sr_RS.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-taskbar/taskbar_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-taskbar/taskbar_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/lxqttray.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/lxqttray.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/lxqttrayplugin.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/lxqttrayplugin.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/tray_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/tray_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/trayicon.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/trayicon.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/CMakeFiles/tray.dir/xfitman.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/CMakeFiles/tray.dir/xfitman.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/libtray.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/libtray.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 文件 lxqt-panel-0.14.1/build/plugin-tray/tray_id.qm 没有结尾行(可能是原始版本或修订版本)
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-tray/tray_ru_RU.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-tray/tray_ru_RU.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 文件 lxqt-panel-0.14.1/build/plugin-tray/tray_tr.qm 没有结尾行(可能是原始版本或修订版本)
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/__/panel/lxqtpanelpluginconfigdialog.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/__/panel/lxqtpanelpluginconfigdialog.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/alsadevice.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/alsadevice.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/alsaengine.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/alsaengine.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/audiodevice.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/audiodevice.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/audioengine.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/audioengine.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/lxqtvolume.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/lxqtvolume.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/lxqtvolumeconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/lxqtvolumeconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/ossengine.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/ossengine.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/pulseaudioengine.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/pulseaudioengine.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/volume_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/volume_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/volumebutton.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/volumebutton.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/CMakeFiles/volume.dir/volumepopup.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/CMakeFiles/volume.dir/volumepopup.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/libvolume.so: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/libvolume.so in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 警告: 执行模式 0775 of 'build/plugin-volume/libvolume.so' 不会被显示在差别文件中。
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_eo.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_eo.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_es_VE.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_es_VE.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_eu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_eu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_fi.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_fi.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_pt_BR.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_pt_BR.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_ro_RO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_ro_RO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_sl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_sl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_th_TH.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_th_TH.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-volume/volume_zh_TW.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-volume/volume_zh_TW.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/LXQtPluginTranslationLoader.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/LXQtPluginTranslationLoader.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclock.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclock.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfiguration.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfiguration.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfigurationmanualformat.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfigurationmanualformat.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfigurationtimezones.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/lxqtworldclockconfigurationtimezones.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/CMakeFiles/worldclock.dir/worldclock_autogen/mocs_compilation.cpp.o: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/CMakeFiles/worldclock.dir/worldclock_autogen/mocs_compilation.cpp.o in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/libworldclock.a: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/libworldclock.a in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_ar.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_ar.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_ca.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_ca.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_cs.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_cs.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_cy.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_cy.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_da.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_da.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_de.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_de.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_el.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_el.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_es.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_es.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_fr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_fr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_gl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_gl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_he.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_he.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_hu.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_hu.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_id.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_id.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_it.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_it.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_ja.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_ja.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_lt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_lt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_nb_NO.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_nb_NO.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_nl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_nl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_pl.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_pl.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_pt.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_pt.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_ru.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_ru.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_tr.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_tr.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_uk.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_uk.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: cannot represent change to build/plugin-worldclock/worldclock_zh_CN.qm: 二进制文件内容已改变
+dpkg-source: 错误: add build/plugin-worldclock/worldclock_zh_CN.qm in debian/source/include-binaries if you want to store the modified binary in the debian tarball
+dpkg-source: 错误: unrepresentable changes to source
+dpkg-buildpackage: 错误: dpkg-source -b . subprocess returned exit status 2

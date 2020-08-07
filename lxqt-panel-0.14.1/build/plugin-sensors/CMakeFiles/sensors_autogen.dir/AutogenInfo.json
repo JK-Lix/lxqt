@@ -1,0 +1,166 @@
+{
+	"BUILD_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/sensors_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1",
+	"HEADERS" : 
+	[
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/chip.h",
+			"MU",
+			"EWIEGA46WW/moc_chip.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/feature.h",
+			"MU",
+			"EWIEGA46WW/moc_feature.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensors.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtsensors.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensorsconfiguration.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtsensorsconfiguration.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensorsplugin.h",
+			"MU",
+			"EWIEGA46WW/moc_lxqtsensorsplugin.cpp"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/sensors.h",
+			"MU",
+			"EWIEGA46WW/moc_sensors.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/sensors_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/sensors_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LXQT_DATA_DIR=\"/usr/share\"",
+		"LXQT_ETC_XDG_DIR=\"/etc/xdg\"",
+		"LXQT_GRAPHICS_DIR=\"/usr/share/lxqt/graphics\"",
+		"LXQT_MAJOR_VERSION=\"0\"",
+		"LXQT_MINOR_VERSION=\"14\"",
+		"LXQT_PANEL_VERSION=\"0.14.1\"",
+		"LXQT_PATCH_VERSION=\"1\"",
+		"LXQT_RELATIVE_SHARE_DIR=\"lxqt\"",
+		"LXQT_RELATIVE_SHARE_TRANSLATIONS_DIR=\"lxqt/translations\"",
+		"LXQT_SHARE_DIR=\"/usr/share/lxqt\"",
+		"LXQT_SHARE_TRANSLATIONS_DIR=\"/usr/share/lxqt/translations\"",
+		"LXQT_VERSION=\"0.14.1\"",
+		"PLUGIN_DIR=\"/usr/local/lib/lxqt-panel\"",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_SVG_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB",
+		"WITH_DESKTOPSWITCH_PLUGIN",
+		"WITH_MAINMENU_PLUGIN",
+		"WITH_QUICKLAUNCH_PLUGIN",
+		"sensors_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors",
+		"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/lxqt",
+		"/usr/include/lxqt/LXQt",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include/qt5xdg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/qt5xdgiconloader",
+		"/usr/include/qt5xdgiconloader/3.4.0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/sensors_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/CMakeFiles/sensors_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/CMakeFiles/sensors_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/build/plugin-sensors/LXQtPluginTranslationLoader.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/chip.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/feature.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensors.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensorsconfiguration.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/lxqtsensorsplugin.cpp",
+			"MU"
+		],
+		[
+			"/home/lix/panel/lxqt/lxqt-panel-0.14.1/plugin-sensors/sensors.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
